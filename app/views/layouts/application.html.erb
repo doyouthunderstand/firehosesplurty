@@ -29,8 +29,21 @@
   </header>
   <hr />
   <br class="clear" />
-
+  
+  <div class="container">
 <%= yield %>
-
+  </div>
+  
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more.", "#", class: 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Built by Brandon Gorman, in his mom's living room, as he sat on the couch and occasionally ate chips. Potato chips of course. Yes, they were Lays. No, he couldn't have just one.
+      </div>
+    </div>
+  </div>
+  
 </body>
 </html>
