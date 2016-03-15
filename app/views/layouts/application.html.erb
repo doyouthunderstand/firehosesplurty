@@ -21,12 +21,13 @@
         </div>
       <% end %>
     </div>  
-    <div class="col-xs-4 slogan">
+    <div class="col-xs-4 hidden-xs slogan">
       Splurting out quotes from musicians since 2016
     </div>
-    <div class="col-xs-5 links">
+    <div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
         <!-- Button trigger modal -->
       <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+      &nbsp;&nbsp;
       <%= link_to 'About' , about_path %>
     </div>
   </header>
@@ -72,10 +73,10 @@
   
   <div class="footer">
     <div class="container">
-      <div class="col-xs-6">
+      <div class="col-xs-12 col-sm-6">
         <%= link_to "This isn't enough, I need more.", root_path, class: 'next-quote' %>
       </div>
-      <div class="col-xs-6 footer-blurb">
+      <div class="col-xs-12 col-sm-6 footer-blurb">
         Built by Brandon Gorman, in his mom's living room, as he sat on the couch and occasionally ate chips. Potato chips of course. Yes, they were Lays. No, he couldn't have just one.
       </div>
     </div>
